@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#name {
+    text-align: center;
+    font-family: 'Bellota', cursive;
+    margin-top: 0;
+    background-color:mistyrose;
+
+    
+
+}
+hr {
+    width: 90%
+}
+
+ul {
+  list-style: none; 
+  display: flex;
+  justify-content: space-evenly; 
+  position: relative;
+
+}
+li {
+   display: inline-block;
+   font-family: 'Bellota', cursive;
+}
+
+.bottom-navigation{
+margin: 40px
+}
+
+#main-photo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-navigation{
+    text-decoration: none;
+}
+/* add media query*/
+@media screen and {
+    
+}
+a {
+    text-decoration: none;
+    color:black
+    
+}
+a:hover {
+    box-shadow: inset 200px 0 0 0 mistyrose;
+text-decoration: none;
+color: inherit;
+}
+a:focus{
+    text-decoration: none;
+    color:inherit;
+}
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+p{
+font-family:  'Bellota', cursive;;
+}
+h2 {
+    font-family:  'Bellota', cursive;
+    background-color: mistyrose;
+    width: 18%
+}
+#greeting {
+    font-family: 'Bellota', cursive;
+    background-color: mistyrose;
+    text-align: center;
+}
+
+p::first-letter {
+    font-size: 350%;
+
+}
+.fa-linkedin{
+    background: #007bb5;  
+  color: white; 
+}
+.fa:hover {  
+    opacity: 0.9;  
+}  
+.fa-linkedin{
+    
+    color: white
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+#profile {
+    border-radius: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+}
+.image1 {
+    display: inline-block;
+    max-width: 150px;
+    
+}
