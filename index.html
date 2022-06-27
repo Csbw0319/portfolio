@@ -13,7 +13,9 @@
 </head>
 <body>
     <header>
+        <section class="no-parallax">
     <h1 id="greeting">Courtney Wilkins</h1>
+        </section>
     <hr>
     <nav aria-label="Main Navigation" role="navigation"></nav>
     </hr>
@@ -29,27 +31,67 @@
     </header>
     <br></br>
     <main>
-<img src="/images.png/Screen Shot 2022-06-23 at 7.39.57 PM.png" id="main-photo">
+        <section class="parallax">
+<div class="container-photo">
+<img src="/images/Screen Shot 2022-06-23 at 7.39.57 PM.png" id="main-photo">
+<h3 class="main-photo-text">Courtney Wilkins - Aspiring Software Engineer</h3>
+</section>
+</div>
 <a id="about-me-section"></a>
 <div>
-<h2>Who am I?</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="no parallax">
+<h2>Who I am...</h2>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eum dicta illum, explicabo culpa ab placeat sit id magnam nemo tenetur hic ad. Eaque nobis officiis, expedita illo culpa laborum.
      lorem p{Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eum dicta illum, explicabo culpa ab placeat sit id magnam nemo tenetur hic ad. Eaque nobis officiis, expedita illo culpa laborum.
     p{Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eum dicta illum, explicabo culpa ab placeat sit id magnam nemo tenetur hic ad. Eaque nobis officiis, expedita illo culpa laborum.</p>
 </p>
-<img src="/images.png/cartoon-from-photos.jpeg" id="profile">
+</section>
+<img src="/images/cartoon-from-photos.jpeg" id="profile">
 </div>
+<br>
+<br>
+<br>
+<br>
 <a id="projects"></a>
 <h2>My Projects</h2>
-<ul>
-    <li>Check it out</li>
-    <li>Check it out</li>
-    <li>Check it out</li>
-</ul>
+<div class="container">
+    <div class="carousel-container">
+        <div class="carousel-button prev">
+            <span class="Inr Inr-chevron-left"><</span>
+        </div>
+        <div class="carousel-images">
+            <img src="/images/tic-tac-toe.png" class="images">
+            <img src="/images/tamagotchi.png" class="images">
+            <img src="/images/pixart.png" class="images">
+        </div>
+        <div class="carousel-button next">
+            <span class="Inr Inr-cheveron-right">></span>
+        </div>
+</div>
+</div>
+<h4>Check them out here</h4>
     </main>
-<hr>
+<br>
+<br>
+<br>
+<h2 class="contact">Contact Me</h2>
+<input type="text" placeholder="Enter your first name" id="firstName" />
+<input type="text" placeholder="Enter your last name" id="lasttName" />
+<input type="email" placeholder="Enter your email" id="email" />
+<span>Message:</span>
+<br>
+<div class="container-mesaage">
+<textarea id="message" rows="8"></textarea>
+<button class="submit">Submit</button>
+</div>
+<br><br>
     <footer>
         <div class="bottom-navigation">
+            <hr>
 <ul>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#about-me-section">About Me</a></li>
