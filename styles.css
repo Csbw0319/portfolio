@@ -204,3 +204,12 @@ span {
     justify-content: center;
     margin: auto;
 }
+#firstName {
+    display: flex;
+    
+}
+#lastName {
+    display: flex;
+justify-content: left;
+}
+
