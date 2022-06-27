@@ -1,12 +1,15 @@
 console.log('connected')
 
+// carousel for projects
+
+// state variables
 let currentImgIndex = 0;
 let previousImgIndex = 0;
 
-
+// grab elements
 const images = document.getElementsByClassName('images');
 const next = document.querySelector('.next');
-
+// add event listeners
 next.addEventListener('click', () => {
 previousImgIndex = currentImgIndex++
 images[previousImgIndex].style.display = 'none';
@@ -27,3 +30,11 @@ if(currentImgIndex < 0) {
 images[currentImgIndex].style.display = 'block';
 })
 
+// submit button function
+
+
+document.getElementById('submit').addEventListener('click', myFunction);
+
+function myFunction() {
+    alert("Successfully submitted. Thank you!")
+}
