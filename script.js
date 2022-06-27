@@ -26,3 +26,4 @@ if(currentImgIndex < 0) {
 }
 images[currentImgIndex].style.display = 'block';
 })
+

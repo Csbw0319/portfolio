@@ -206,10 +206,21 @@ span {
 }
 #firstName {
     display: flex;
+    justify-content: center;
+    margin: auto;
     
 }
 #lastName {
     display: flex;
-justify-content: left;
+    justify-content: left;
+    margin: auto;
+}
+.contact-container {
+border: 5px dotted;
+border-color: mistyrose;
+padding: 30px;
+width: 40%;
+align-self: center;
+margin: auto;
 }
 
