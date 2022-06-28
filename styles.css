@@ -1,3 +1,6 @@
+* {
+max-width: 100vw;
+}
 body {
     margin: 0;
     height: 100vh;
@@ -43,7 +46,10 @@ margin: 40px
     text-decoration: none;
 }
 /* add media query*/
-@media screen and {
+@media screen (min-width 320px)and (max-width: 768px) {
+    img {
+    max-width: 40vw;
+    }
     
 }
 a {
@@ -184,6 +190,11 @@ transform: translate(-50%, -50%);
     justify-content: center;
     margin: auto;
     margin-top: 10px;
+    font-family: 'Bellota', cursive;
+    padding: 10px;
+    background-color: mistyrose;
+    border-radius: 90px;
+    border-color: black;
 }
 #message {
     display: flex;
@@ -197,18 +208,21 @@ span {
 #email {
     display: flex;
     justify-content: center;
-    margin: 10px 0 10px 95px;
+    margin: auto;
+    margin-bottom:  10px;;
 }
 #firstName {
     display: flex;
     justify-content: center;
-    margin: 0 0 10px 95px;
+    margin: auto;
+    margin-bottom: 10px;;
     
 }
 #lastName {
     display: flex;
     justify-content: left;
     margin: auto;
+    margin-bottom: 10px;;
 }
 .contact-container {
 border: 8px dotted;
@@ -228,9 +242,16 @@ margin: auto;
 }
 #more-photo {
     max-width: 20%;
-    margin: 0 0 0 550px;
-    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50px;
 }
 .more-text {
-margin: 0 0 0 190px;
+text-align: center;
+}
+.bio {
+    text-align: center;
+    width: 570px;
+    margin: auto;
 }
