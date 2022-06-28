@@ -31,10 +31,19 @@ images[currentImgIndex].style.display = 'block';
 })
 
 // submit button function
-
-
-document.getElementById('submit').addEventListener('click', myFunction);
+document.getElementById('submit-button').addEventListener('click', myFunction);
 
 function myFunction() {
     alert("Successfully submitted. Thank you!")
+}
+
+// learn more button
+
+function my_Function() {
+    var x = document.getElementById("myDIV");
+    if(x.style.display === "none") {
+        x.style.display = "block";
+    }else{
+        x.style.display =  "none";
+    }
 }

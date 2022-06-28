@@ -179,15 +179,11 @@ transform: translate(-50%, -50%);
     display: flex;
     justify-content: end;
 }
-button {
-    display: flex;
-   
-}
-#submit {
+#submit-button {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 10px;;
+    margin-top: 10px;
 }
 #message {
     display: flex;
@@ -197,17 +193,16 @@ button {
 span {
     display: flex;
     justify-content: center;
-    margin: auto;
 }
 #email {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 10px 0 10px 95px;
 }
 #firstName {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 0 0 10px 95px;
     
 }
 #lastName {
@@ -216,11 +211,26 @@ span {
     margin: auto;
 }
 .contact-container {
-border: 5px dotted;
+border: 8px dotted;
 border-color: mistyrose;
 padding: 30px;
 width: 40%;
 align-self: center;
 margin: auto;
 }
-
+#more-button {
+    font-family: 'Bellota', cursive;
+    padding: 18px;
+    background-color: mistyrose;
+    border-radius: 90px;
+    border-color: black;
+    margin: 60px 0 0 70px;
+}
+#more-photo {
+    max-width: 20%;
+    margin: 0 0 0 550px;
+    border-radius: 30px;
+}
+.more-text {
+margin: 0 0 0 190px;
+}
